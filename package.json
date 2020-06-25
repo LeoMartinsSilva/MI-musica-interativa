@@ -1,0 +1,19 @@
+{
+  "name": "mi-musica-interativa",
+  "version": "1.0.0",
+  "description": "TCC",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoMartinsSilva/MI-musica-interativa.git"
+  },
+  "author": "Leonardo Martins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeoMartinsSilva/MI-musica-interativa/issues"
+  },
+  "homepage": "https://github.com/LeoMartinsSilva/MI-musica-interativa#readme"
+}
