@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <style type="text/css">
+        .selectable {
+            width: 100px;
+            height: 100px;
+            left: 500px;
+            border: 1px solid #999999;
+        }
+
+        .draggable {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+
+    <script type="text/javascript">
+        $(function () {
+            var selecionado = $([]),
+                offset = { top: 0, left: 0 };
+
+            $(".draggable").draggable({
+                start: function (ev, ui) {
+                    console.log('start');
+                },
+                drag: function (ev, ui) {
+                    console.log('drag');
+                },
+                stop: function (ev, ui) {
+                    console.log('drop');
+                }
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <h1>Ideia 1:</h1>
+
+    <table style="width: 800px;">
+        <tr>
+            <td>
+                <div id="dragee" class="draggable"><img src="imagem1.jpeg" width="50" height="50"></div>
+            </td>
+            <td>
+                <div id="selectable1" class="selectable">algo</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="dragee" class="draggable"><img src="imagem2.jpg" width="50" height="50"></div>
+            </td>
+            <td>
+                <div id="selectable2" class="selectable">algo 2</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="dragee" class="draggable"><img src="imagem3.jpg" width="50" height="50"></div>
+            </td>
+            <td>
+                <div id="selectable3" class="selectable">algo 3</div>
+            </td>
+        </tr>
+    </table>
+<h1>Ideia 2:</h1>
+
+    <img src="pentagrama.png" width="700">
+</body>
+
+</html>
