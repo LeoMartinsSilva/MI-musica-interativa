@@ -1,0 +1,10 @@
+
+.link{ /* Formatar links, como "esqueci minha senha"*/
+	font-family: verdana;
+	font-size: 10pt;	
+	text-decoration: none;
+}
+
+.link:hover{
+	text-decoration: underline;
+}

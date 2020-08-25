@@ -1,0 +1,11 @@
+.meulink{ /* Formatar links, como "esqueci minha senha"*/
+	font-family: verdana;
+	font-size: 10pt;	
+	text-decoration: none;
+        color: white;
+}
+
+.link:hover{
+	text-decoration: underline;
+}
+

@@ -1,0 +1,15 @@
+#formulario{ /* formulário de login e senha*/
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	background-color: lightgray;
+}
+.lblForms{ /* classe para os labels do formulário */
+	font-family: verdana;
+	width: inline-box;
+	padding-bottom: 10px;
+}
+.tbForms{ /*classe para configurar as tabelas dos formulários*/
+	border-collapse: separate;
+	border-spacing: 0 10px;
+}
