@@ -14,10 +14,10 @@ $contaLetras = strlen($row_usuario['senha']);
     <head>
         <title>Minha Conta</title>
         <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
-	<meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/compiler/style.css"
-	<link rel="stylesheet" type="text/css" href="CSS/cadastro.css">
-	<link rel="stylesheet" type="text/css" href="CSS/formulario.css">
+	   <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/compiler/style.css">
+	   <link rel="stylesheet" type="text/css" href="CSS/cadastro.css">
+	   <link rel="stylesheet" type="text/css" href="CSS/formulario.css">
         <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/compiler/bootstrap.css">
     </head>
     <body>

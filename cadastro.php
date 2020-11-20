@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
 	<meta charset="utf-8">
 	<title>Cadastre-se</title>
-        <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/compiler/style.css"
+        <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/compiler/style.css">
 	<link rel="stylesheet" type="text/css" href="CSS/cadastro.css">
 	<link rel="stylesheet" type="text/css" href="CSS/formulario.css">
         <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/compiler/bootstrap.css">

@@ -12,10 +12,10 @@ $row_usuario = mysqli_fetch_assoc($resultado_usuario);
         <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
 	<meta charset="utf-8">
 	<title>Alterar dados</title>
-        <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/compiler/style.css"
-	<link rel="stylesheet" type="text/css" href="CSS/cadastro.css">
-	<link rel="stylesheet" type="text/css" href="CSS/formulario.css">
-        <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/compiler/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/cadastro.css">
+    <link rel="stylesheet" type="text/css" href="CSS/formulario.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/compiler/bootstrap.css">
         
 </head>
 
